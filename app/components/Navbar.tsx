@@ -32,17 +32,17 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-neutral-200/80 dark:border-white/10 bg-white/85 dark:bg-zinc-950/75 backdrop-blur-md transition-all duration-300">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
 
           {/* Logo / Brand */}
-          <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center gap-2">
+          <div className="flex-shrink-0 py-1.5">
+            <Link href="/" className="flex items-center gap-2 group">
               <Image
-                src="/logo.png"
+                src="/logo-nw.png"
                 alt="Cochin University Students' Union (CUSU) Logo"
-                width={120}
-                height={40}
-                className="h-10 w-auto object-contain"
+                width={180}
+                height={70}
+                className="h-12 sm:h-14 md:h-16 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
                 priority
               />
             </Link>

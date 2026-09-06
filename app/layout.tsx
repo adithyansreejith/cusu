@@ -54,7 +54,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-[#fafafc] dark:bg-[#050507] text-neutral-900 dark:text-gray-200 transition-colors duration-300">
         <RedParticles />
         <Navbar />
-        <div className="mt-20 relative z-10">{children}</div>
+        <div className="mt-20 sm:mt-24 relative z-10">{children}</div>
         <Footer />
       </body>
     </html>
