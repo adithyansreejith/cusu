@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Default Light Theme Colors */
+  --background: #fafafc;
+  --foreground: #0f172a;
+}
+
+.dark {
+  /* Dark Theme Colors */
+  --background: #050507;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  /* Standard Next.js / Tailwind setup */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background-color: rgba(239, 68, 68, 0.25);
+  color: inherit;
+}

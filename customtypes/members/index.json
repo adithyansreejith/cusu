@@ -1,0 +1,59 @@
+{
+  "format": "custom",
+  "id": "members",
+  "label": "Members",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "name": {
+        "type": "StructuredText",
+        "config": {
+          "label": "name",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "heading4"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "position": {
+        "type": "StructuredText",
+        "config": {
+          "label": "position",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      },
+      "position_number": {
+        "type": "Number",
+        "config": {
+          "label": "position_number",
+          "placeholder": ""
+        }
+      },
+      "contact_details": {
+        "type": "StructuredText",
+        "config": {
+          "label": "contact details",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph"
+        }
+      }
+    }
+  }
+}

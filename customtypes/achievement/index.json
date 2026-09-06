@@ -1,0 +1,34 @@
+{
+  "format": "custom",
+  "id": "achievement",
+  "label": "Achievement",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "achievementimage": {
+        "type": "Group",
+        "config": {
+          "label": "AchievementImage ",
+          "repeat": true,
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": {
+                "label": "image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
