@@ -48,15 +48,13 @@ export default function HeroSection() {
 
             {/* Card Frame */}
             <div className="relative group rounded-2xl border border-neutral-200/90 dark:border-neutral-800 hover:border-red-500/40 dark:hover:border-red-500/30 bg-white/90 dark:bg-neutral-900/80 p-2 sm:p-3 overflow-hidden shadow-xl dark:shadow-2xl backdrop-blur-sm transition-colors duration-300">
-              <div className="relative aspect-[3/4] sm:aspect-[4/3] w-full overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-950 flex items-center justify-center">
-
-                {/* Image rotated by 270 degrees */}
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-950 flex items-center justify-center">
                 <Image
-                  src="/union.webp"
+                  src="/union.png"
                   alt="Cochin University Students' Union Members 2025-26"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-contain rotate-[270deg] group-hover:scale-[1.03] transition-transform duration-500 ease-out"
+                  className="object-cover group-hover:scale-[1.02] transition-transform duration-500 ease-out"
                   priority
                 />
                 {/* Bottom Overlay Label */}

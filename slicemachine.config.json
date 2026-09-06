@@ -1,5 +1,5 @@
 {
-  "repositoryName": "dsu2025-26",
+  "repositoryName": "cusu",
   "adapter": "@slicemachine/adapter-next",
   "libraries": ["./slices"],
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"

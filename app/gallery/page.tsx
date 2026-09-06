@@ -119,25 +119,25 @@ export default async function GalleryPage({ searchParams }: GalleryPageProps) {
     galleryItems.push(
       {
         id: "placeholder-1",
-        url: "/union.webp",
+        url: "/cusu.png",
         title: "Union Executive Council 2025–26",
         category: "Union Events",
       },
       {
         id: "placeholder-2",
-        url: "/union.webp",
+        url: "/cusu.png",
         title: "Campus Cultural Assembly",
         category: "Cultural Events",
       },
       {
         id: "placeholder-3",
-        url: "/union.webp",
+        url: "/cusu.png",
         title: "Student Activity Forum",
         category: "Campus Activities",
       },
       {
         id: "placeholder-4",
-        url: "/union.webp",
+        url: "/cusu.png",
         title: "Student Community Gathering",
         category: "Student Gatherings",
       }
