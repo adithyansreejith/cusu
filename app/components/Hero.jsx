@@ -90,23 +90,23 @@ export default function HeroSection() {
               <div className="mt-5 sm:flex-row items-center justify-center gap-3 sm:gap-6">
                 {/* Email */}
                 <a
-                  href="mailto:cusu@cusat.ac.in"
+                  href="mailto:cusatstudentsunion@gmail.com"
                   className="flex items-center gap-2 text-sm sm:text-base font-medium text-neutral-600 dark:text-neutral-400 hover:text-red-600 dark:hover:text-red-300 transition-colors"
                   aria-label="Email Cochin University Students' Union"
                 >
                   <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-red-600 dark:text-red-400" />
-                  <span>cusu@cusat.ac.in</span>
+                  <span>cusatstudentsunion@gmail.com</span>
                 </a>
                 {/* Instagram */}
                 <a
-                  href="https://www.instagram.com/cusu_official"
+                  href="https://www.instagram.com/cochin_university_union"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm sm:text-base font-medium text-neutral-600 dark:text-neutral-400 hover:text-red-600 dark:hover:text-red-300 transition-colors"
                   aria-label="Follow Cochin University Students' Union on Instagram"
                 >
                   <FaInstagram className="w-4 h-4 sm:w-5 sm:h-5 text-red-600 dark:text-red-400" />
-                  <span>cusu_official</span>
+                  <span>cochin_university_union</span>
                 </a>
               </div>
             </motion.h1>
@@ -117,7 +117,7 @@ export default function HeroSection() {
             >
               The Cochin University Students&apos; Union (CUSU) is the official elected student governing body representing students across the departments, schools, and research centers of the university. The Union Hub 2025–26 serves as our central digital platform to foster campus democracy, student welfare, academic representation, and active student participation.
               <br /> <br />
-              CUSU actively enlivens campus life through hallmark initiatives such as cultural fests, arts and sports championships, open forums, film screenings, and student clubs. Students can directly voice grievances or submit welfare requests through our Complaint Box, review formal petitions submitted by the union, explore clubs, and stay engaged with upcoming campus events.
+              CUSU actively enlivens campus life through hallmark initiatives such as cultural fests, arts and sports championships,film screenings, and student clubs. Students can directly voice grievances or submit welfare requests through our Complaint Box, review formal petitions submitted by the union, explore clubs, and stay engaged with upcoming campus events.
             </motion.p>
           </div>
         </motion.div>

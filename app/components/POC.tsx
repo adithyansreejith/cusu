@@ -24,23 +24,15 @@ const POC = () => {
                     </div>
                     <div className="space-y-3">
                         <a
-                            href="tel:+919207831937"
+                            href="tel:+918891041158"
                             className="group flex items-center gap-3 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-sm w-fit"
                         >
                             <div className="p-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 group-hover:bg-red-50 dark:group-hover:bg-red-950/30 border border-neutral-200 dark:border-neutral-800/80 group-hover:border-red-500/40 transition-colors">
                                 <Phone className="w-4 h-4 text-neutral-700 dark:text-neutral-300 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors" />
                             </div>
-                            <span className="font-medium">+91 92078 31937</span>
+                            <span className="font-medium">+91 88910 41158</span>
                         </a>
-                        <a
-                            href="mailto:ebysanalvs@gmail.com"
-                            className="group flex items-center gap-3 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-sm w-fit"
-                        >
-                            <div className="p-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 group-hover:bg-red-50 dark:group-hover:bg-red-950/30 border border-neutral-200 dark:border-neutral-800/80 group-hover:border-red-500/40 transition-colors">
-                                <Mail className="w-4 h-4 text-neutral-700 dark:text-neutral-300 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors" />
-                            </div>
-                            <span className="break-all">ebysanalvs@gmail.com</span>
-                        </a>
+                        
                     </div>
                 </motion.div>
 
@@ -62,23 +54,15 @@ const POC = () => {
                     </div>
                     <div className="space-y-3">
                         <a
-                            href="tel:+917736791471"
+                            href="tel:+919847302150"
                             className="group flex items-center gap-3 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-sm w-fit"
                         >
                             <div className="p-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 group-hover:bg-red-50 dark:group-hover:bg-red-950/30 border border-neutral-200 dark:border-neutral-800/80 group-hover:border-red-500/40 transition-colors">
                                 <Phone className="w-4 h-4 text-neutral-700 dark:text-neutral-300 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors" />
                             </div>
-                            <span className="font-medium">+91 77367 91471</span>
+                            <span className="font-medium">+91 98473 02150</span>
                         </a>
-                        <a
-                            href="mailto:meenakshisujeev@gmail.com"
-                            className="group flex items-center gap-3 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-sm w-fit"
-                        >
-                            <div className="p-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 group-hover:bg-red-50 dark:group-hover:bg-red-950/30 border border-neutral-200 dark:border-neutral-800/80 group-hover:border-red-500/40 transition-colors">
-                                <Mail className="w-4 h-4 text-neutral-700 dark:text-neutral-300 group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors" />
-                            </div>
-                            <span className="break-all">meenakshisujeev@gmail.com</span>
-                        </a>
+                        
                     </div>
                 </motion.div>
 
